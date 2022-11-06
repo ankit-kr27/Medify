@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(93, 186, 155);
+    color: azure;
+    font-family: cursive;
+}
+
+.header{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.567);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.signup{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
+
+.box{
+    margin-top: 6.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.901);
+    width: 40rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.14);
+    color: rgb(53, 87, 74);
+}
+
+.boxsup{
+    margin-top: 6.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.901);
+    width: 40rem;
+    height: 32rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.14);
+    color: rgb(53, 87, 74);
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sign{
+    position: relative;
+    top: 5%;
+    
+}
+/* .email{
+    position: relative;
+    top: 0px;
+    font-size: larger;
+}
+.password{
+    margin-top: 20px;
+    font-size: larger;
+} */
+.both{
+    margin-top: 10%;
+    justify-content: left;
+}
+
+.input{
+    margin: 7px;
+    width: 45%;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 7px;
+    border-color: rgb(120, 192, 168);
+    background-color:rgb(218, 235, 218);
+}
+.submit{
+    margin-top: 1.5rem;
+    /* margin-bottom: 0px; */
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    font-size: large;
+    border-color: rgb(120, 192, 168);
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 126, 85);
+}
+
+.submit:hover{
+    position: relative;
+    left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(53, 87, 74);
+}
+.logup:hover{
+    position: relative;
+    top: 2px;
+}
+
+.pic{
+    display: flex;
+}
+
+#hospital{
+    height: 25rem;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#hospital:hover{ 
+    position: relative;
+    left: 10px;
+}
+
+#medicare{
+    padding: 1%;
+}
+
+#healthcare{
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 4px;
+}
+#profile{
+    position: relative;
+    top: 4px;
+    font-size: small;
+}
+
+#prof{
+    position: relative;
+    top: 4px;
+    color: rgb(2, 126, 85);
+    /* background-color: rgb(255, 255, 255); */
+    border-color: rgb(120, 192, 168);
+    border-radius: 5px;
+}
