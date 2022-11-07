@@ -25,7 +25,17 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 10rem;
+}
 section{
     padding:2rem 9%;
 }
@@ -47,39 +57,6 @@ section:nth-child(even){
 .heading span{
     text-transform: uppercase;
     color:var(--purple);
-}
-
-.btn{
-    display: inline-block;
-    margin-top: 1rem;
-    padding: .5rem;
-    padding-left: 1rem;
-    border:var(--border);
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    color:var(--purple);
-    cursor: pointer;
-    font-size: 1.7rem;
-    background: #fff;
-}
-
-.btn span{
-    padding:.7rem 1rem;
-    border-radius: .5rem;
-    background: var(--purple);
-    color:#fff;
-    margin-left: .5rem;
-}
-
-.btn:hover{
-    background: var(--purple);
-    color:#fff;
-}
-
-.btn:hover span{
-    color: var(--purple);
-    background:#fff;
-    margin-left: 1rem;
 }
 
 .header{
@@ -113,48 +90,6 @@ section:nth-child(even){
     color: var(--purple);
 }
 
-#login-btn{
-    border-radius: 1.6rem;
-    padding: .7rem 1rem;
-    color: white;
-    background-color: var(--purple);
-    width: 8rem;
-}
-
-.home{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    padding-top: 10rem;
-}
-
-.home .image{
-    flex:1 1 45rem;
-}
-
-.home .image img{
-    width: 100%;
-}
-
-.home .content{
-    flex:1 1 45rem;
-}
-
-.home .content h3{
-    font-size: 4.5rem;
-    color:var(--black);
-    line-height: 1.8;
-    text-shadow: var(--text-shadow);
-}
-
-.home .content p{
-    font-size: 1.7rem;
-    color:var(--light-color);
-    line-height: 1.8;
-    padding: 1rem 0;
-}
-
 .book .row{
     display: flex;
     align-items: center;
@@ -179,7 +114,9 @@ section:nth-child(even){
     padding: 2rem;
     border-radius: 2rem;
 }
-
+form label, h5{
+    font-size: 1.5rem;
+}
 .book .row form h3{
     color:var(--black);
     padding-bottom: 1rem;
