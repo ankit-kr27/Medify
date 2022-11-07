@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lgn.css">
 
 </head>
 <body>
@@ -19,55 +19,34 @@
 
 <header class="header">
 
-    <a href="#" class="logo">  Medify <i class="fas fa-heartbeat"></i></a>
+    <a href="index.html" class="logo">  Medify <i class="fas fa-heartbeat"></i></a>
 
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#book">book</a>
-        <a href="lgn.html"><button id="login-btn">Login</button></a>
+        <a href="mailto:test1@gmail.com" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
     </nav>
 
 </header>
-
+<div class="home"></div>
 <!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="image">
-        <img src="image/kid.svg" alt="">
-    </div>
-
-    <div class="content">
-        <h3>stay safe, stay healthy</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed autem vero? Magnam, est laboriosam!</p>
-        <a href="#hamseJude" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
 <!-- booking section starts   -->
 
 <section class="book" id="book">
 
-    <h1 class="heading"> <span>book</span> now </h1>    
+    <h1 class="heading"> <span>Log In</span></h1>    
 
     <div class="row">
 
         <div class="image">
             <img src="image/beat.svg" alt="">
         </div>
-
-        <form action="">
-            <h3>book appointment</h3>
-            <input type="text" placeholder="Name" class="box">
-            <input type="number" placeholder="Phone number" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="date" class="box">
-            <input type="submit" value="book now" class="btn">
+        <form action="bhejdo.js">
+            <label for="email">Enter Email ID </label><br>
+            <input type="email" name="email" id="email" placeholder="Email" class="box">
+            <br>
+            <label for="password">Enter Password </label><br>
+            <input type="password" name="password" id="password" placeholder="Password" class="box"><br>
+            <button class="btn">Login</button>
+            <h5>New here? --><a href="sgnup.html"><span class="logup">Sign-up</span></a></h5>
         </form>
 
     </div>
